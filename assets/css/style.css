@@ -23,6 +23,7 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 280%;
+    margin-left: 30px;
 }
 
 #menu {
@@ -65,4 +66,26 @@ h1, h2 {
     height: 750px;
     width: 100%;
     background: url('../css/images/Anitaheroimage.png') no-repeat center center;
+}
+<hr>
+
+/* about me */
+
+#about-me {
+    height: 750px;
+}
+
+#left-about {
+    padding-top: 30px;
+    width: 50%;
+    background-color: blue;
+    float: left;
+}
+
+#right-about {
+    padding-top: 30px;
+    width: 50%;
+    background-color: green;
+    float: right;
+
 }
