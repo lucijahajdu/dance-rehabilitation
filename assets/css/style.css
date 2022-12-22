@@ -52,3 +52,17 @@ h1, h2 {
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
+
+/* main image */
+
+#main-image-outer {
+    height: 700px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#main-image {
+    height: 750px;
+    width: 100%;
+    background: url('../css/images/Anitaheroimage.png') no-repeat center center;
+}
