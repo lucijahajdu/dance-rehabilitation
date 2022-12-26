@@ -271,4 +271,25 @@ form > h2 {
 h4 {
     margin-bottom: 20px;
 }
+
+/* footer */
+
+footer {
+    height: 30px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 3%;
+    color: #3a3a3a;
+}
     
