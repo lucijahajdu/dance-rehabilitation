@@ -14,10 +14,22 @@ body {
 
 /* headings and logo */
 
-h1, h2, h3 {
+h1, h2  {
     font-family: Roboto, sans-serif;
     letter-spacing: 2px;
     color: #252525;
+    text-align: center;
+}
+
+h3 {
+    margin: 10px;
+    padding: 10px;
+}
+
+h2 {
+    font-size: 280%;
+    margin-bottom: 30px;
+
 }
 
 #logo {
@@ -85,7 +97,6 @@ h1, h2, h3 {
 }
 
 hr {
-    border-top: 1px solid #3a3a3a;
     width: 100%;
     margin: 5px 0;
 }
@@ -122,31 +133,50 @@ hr {
     text-align: center;
     margin: 20px;
     font-size: 280%;
-    background: burlywood;
+    background: #E6E6FA;
 }
 
 /* services section */
 
 #services {
-    padding: 16px 0;
-    margin: 80px;
     background: url(../css/images/background-image.jpg) center center / cover no-repeat fixed;
     text-align: center;
+    height: 500px;
+    padding: 50px;
 }
 
 #choreography-box {
-    background-color: lavender;
+    background-color: #E6E6FA;
     position: relative;
+    left: 200px;
+    height: 300px;
+    width: 400px;
+    padding-top: 50px;
+    font-size: 20px;
+
 }
 
 #rehabilitation-box {
-    background-color: lavender;
+    background-color: #E6E6FA;
     position: relative;
+    height: 300px;
+    width: 400px;
+    padding-top: 50px;
+    font-size: 20px;
+
+
+    
 }
 
 #kinesio-taping-box {
-    background-color: lavender;
+    background-color: #E6E6FA;
     position: relative;
+    right: 200px;
+    height: 300px;
+    width: 400px;
+    padding-top: 50px;
+    font-size: 20px;
+
     
 }
 
@@ -169,3 +199,33 @@ li {
     float: right;
 }
 
+#contact {
+    margin-bottom: 50px;
+}
+
+.contact-box-left {
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #E6E6FA;
+    float: left;
+    left: 50px;
+    text-align: center;
+    font-size: 120%;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.contact-box-right {
+    float: right;
+    margin: 10px;
+    padding: 10px;
+    background-color: 00DCD0ff;
+    right: 50px;
+}
+
+.form-section {
+    
+}

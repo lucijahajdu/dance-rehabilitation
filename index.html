@@ -82,6 +82,7 @@
             </div>
         </div>
     </section>
+    <hr>
 
     <!-- The box model-->
     <section id="services">
@@ -117,8 +118,43 @@
             </ul>
         </div>
     </section>
-    <section>
-        Contact
+    <hr>
+    <section id="contact">
+        <h2 class="text-center">Contact</h2>
+        <div class="contact-box-container">
+            <div class="contact-box-left">
+                <h3 class="text-center">Get in touch</h3>
+                <div>
+                    <span class="bold">Phone: </span>
+                    <span>+43 123 456 78</span>
+                </div>
+                <div>
+                    <span class="bold">Email: </span>
+                    <span>email@gmail.com</span>
+                </div>
+                <div>
+                    <span class="bold">Address: </span>
+                    <span>Erdbergstrasse 125, Austria</span>
+                </div>
+            </div>
+        </div>
+        <div class="contact-box-right">
+            <form action="https://formdump.codeinstitute.net/" method="POST" class="form-section">
+                <h2>Got a question? </h2>
+                <h4>Just send me a message. I'd love to hear from you!</h4>
+                <label for="fname">First Name</label>
+                <input id="fname" type="text" name="first_name" required>
+                <label for="lname">Last Name</label>
+                <input id="lname" type="text" name="last_name" required>
+                <label for="email">Email Address</label>
+                <input id="email" type="email" name="email_address" required>
+                <label for="message">Message</label>
+                <br>
+                <textarea name="message" id="message" rows="10" cols="40"></textarea>
+                
+                <input type="submit" value="Send Your Message">
+            </form>
+        </div>
     </section>
     <footer>
         Social links.
