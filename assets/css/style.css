@@ -28,8 +28,7 @@ h3 {
 
 h2 {
     font-size: 280%;
-    margin: 1%;
-    padding: 1%;
+    
 
 }
 
@@ -76,66 +75,42 @@ h2 {
 }
 
 #main-image {
-    height: 750px;
+    height: 700px;
     width: 100%;
     background: url('../css/images/Anitaheroimage.png') no-repeat center center;
 }
 
 /* about me */
 
-#about-me {
-    height: 750px;
-    margin: 2%;
-    width: 96%;
-}
-
-#left-about {
-    width: 40%;
-    margin: 50px;
-    padding: 30px;
-    float: left;
-   
-}
-
-hr {
-    width: 100%;
-    margin: 5px 0;
-}
-
-
-#right-about {
-    width: 40%;
-    margin: 50px;
-    padding: 30px;
-    float: right;
-   
-}
-
-.right-about-heading {
-    width: 100%;
-    float: left;
-    
-   
-}
-
-.right-about-heading h2 {
-    text-align: center;
-    font-size: xx-large;
-}
-
-.right-about-heading p {
-    text-align: left;
-    font-size: large;
-    margin: 5px;
-    padding: 15px;
-}
-
 #welcome {
-    text-align: center;
-    margin: 20px;
-    font-size: 280%;
     background: #E6E6FA;
+    width: 100%;
+    height: 100px;
+    margin: 0px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+    
+#about-me {
+    text-align: center;
+    height: 100%;
+    padding: 0;
+}
+
+.about-me-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    margin: 2%;
+}
+
+ .about-me-content p {
+    font-size: 140%;
+    margin: 1%;
+    padding: 1%;
+ }
 
 /* Flexbox design patterns */
 
