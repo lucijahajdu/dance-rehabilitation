@@ -22,13 +22,14 @@ h1, h2  {
 }
 
 h3 {
-    margin: 10px;
-    padding: 10px;
+    margin: 1%;
+    padding: 1%;
 }
 
 h2 {
     font-size: 280%;
-    margin-bottom: 30px;
+    margin: 1%;
+    padding: 1%;
 
 }
 
@@ -136,67 +137,34 @@ hr {
     background: #E6E6FA;
 }
 
-/* services section */
+/* Flexbox design patterns */
 
 #services {
     background: url(../css/images/background-image.jpg) center center / cover no-repeat fixed;
     text-align: center;
-    height: 500px;
-    padding: 50px;
+    height: 100%;
+    padding: 5%;
 }
 
-#choreography-box {
-    background-color: #E6E6FA;
-    position: relative;
-    left: 200px;
-    height: 300px;
-    width: 400px;
-    padding-top: 50px;
-    font-size: 20px;
-
+.even-columns {
+    display: flex;
 }
 
-#rehabilitation-box {
-    background-color: #E6E6FA;
-    position: relative;
-    height: 300px;
-    width: 400px;
-    padding-top: 50px;
-    font-size: 20px;
-
-
-    
-}
-
-#kinesio-taping-box {
-    background-color: #E6E6FA;
-    position: relative;
-    right: 200px;
-    height: 300px;
-    width: 400px;
-    padding-top: 50px;
-    font-size: 20px;
-
-    
+/* 100% means that all boxes wants to be same size */
+.even-columns > * {
+    flex-basis: 100%;
 }
 
 .service-box {
-    width: 33%;
-	margin:  1rem 0;
-	display: inline-block;
-    height: 200px;
+    background-color: #E6E6FA;
+    font-size: 120%;
+    height: 220px;
+    margin: 2%;
+    padding: 2%;
 }
 
 li {
     list-style-type: none;
-}
-
-.float-left {
-    float: left;
-}
-
-.float-right {
-    float: right;
 }
 
 #contact {
