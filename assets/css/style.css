@@ -191,7 +191,7 @@ li {
     font-weight: bold;
 }
 
-.contact-box-right {
+.form-box {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -208,6 +208,9 @@ form > h2 {
 }
 
 .text-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: transparent;
     color: #252525;
     width: 100%;
@@ -222,6 +225,9 @@ form > h2 {
 }
 
 .send-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 20px;
     border-radius: 2px;
     padding: 15px 32px;
@@ -233,6 +239,9 @@ form > h2 {
 }
 
 .message-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: transparent;
     color: #252525;
     width: 100%;
