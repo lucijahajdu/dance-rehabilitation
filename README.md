@@ -46,9 +46,10 @@ Users of the website will be able to recieve information about the websites owne
 * HTML and CSS were used to create this website.
 * Git-for version control.
 * Github-to save and store the files for the website.
-* Google Fonts-to import the fonts used on the website.
-* Font Awesome-for the iconography on the website.
-* TinyPNG to compress images.
+* [Google Fonts](https://fonts.google.com/ "Google Fonts")-to import the fonts used on the website.
+* [Font Awesome](https://fontawesome.com/ "Font Awesome")-for the iconography on the website.
+* [Tinypng](https://tinypng.com/ "Tinypng")-to compress images. https://balsamiq.com/
+* [Balsamiq](https://balsamiq.com/ "Balsamiq")- to make a wireframe.
 
 ## Testing ##
 * The website functions in different browsers: Chrome, Firefox, Microsoft Edge.
@@ -60,8 +61,14 @@ Users of the website will be able to recieve information about the websites owne
 ### Bugs ###
 #### Solved Bugs ####
 * When I open my project on the other device the images were not visiable. 
-* This was because I had absolute file paths such as this in my code : <!--<img src="/assets/css/images/about-me.jpg" > -->
+* This was because I had absolute file paths such as this in my code : `<img src="/assets/css/images/about-me.jpg">`  
 * Removing the starting / fixed the problem.
+
+
+#### Unresolved Bugs ####
+* Form Section
+  * When pushing Send Your Message button error 404 occures.
+  * `<form action=“confirmation.html” method="GET" class=“form-section”>`
 
 ## Validator Testing ##
 * HTML
@@ -94,7 +101,7 @@ Users of the website will be able to recieve information about the websites owne
 * Instructions on how to  create certain codes were found on Code Institute LMS
 ## Media ##
 * The images were provided from Anita Hajdu(site owner).
-* The background image in the Services section was taken from Pexels.
+* The background image in the Services section was taken from [Pexels](https://www.pexels.com/ "Pexels").
 
 
   
