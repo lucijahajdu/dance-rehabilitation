@@ -83,7 +83,7 @@ Users of the website will be able to recieve information about the websites owne
 * CSS
   * No errors were found when passing through the official [Jigsaw W3 Validator](https://jigsaw.w3.org/css-validator/ "Jigsaw W3 Validator").
 * Accessibility 
- * Chosen colors and fonts are easy to read and accessible by running it through lighthouse in devtools.
+  * Chosen colors and fonts are easy to read and accessible by running it through lighthouse in devtools.
 
  ![Accessibility in Lighthouse](/assets/css/images/accessibility-readme.png)
 
@@ -113,5 +113,5 @@ Users of the website will be able to recieve information about the websites owne
 ## Resources ##
 * [Google Fonts](https://fonts.google.com/ "Google Fonts")-to import the fonts used on the website.
 * [Font Awesome](https://fontawesome.com/ "Font Awesome")-for the iconography on the website.
-* [Tinypng](https://tinypng.com/ "Tinypng")-to compress images. https://balsamiq.com/
+* [Tinypng](https://tinypng.com/ "Tinypng")-to compress images. 
 * [Balsamiq](https://balsamiq.com/ "Balsamiq")- to make a wireframe.
