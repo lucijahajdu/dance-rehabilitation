@@ -242,6 +242,17 @@ form > h2 {
     border-color: #0a814a;
 }
 
+.confirmation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30%;
+}
+
+.confirmation-footer {
+    margin-top: 80%;
+}
+
 /* Social media icons- instagram, twitter, youtube and facebook*/
 footer {
     height: 30px;
