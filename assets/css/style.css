@@ -291,6 +291,12 @@ footer {
     #cover-text {
         left: 0;
     }
+
+    .about-me-content p {
+        margin: 3%;
+        padding: 3%;
+        width: 100%;
+    }
 }
 /* For small screen sizes from 400px wide and down */
  @media screen and (max-width: 400px) {
@@ -299,7 +305,6 @@ footer {
         padding: 3%;
         width: 100%;
     }
-    
  }
 
     
