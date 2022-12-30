@@ -56,7 +56,7 @@ Users of the website will be able to recieve information about the websites owne
   * From the source section drop-down menu, select the Master Branch
   * Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-  The live link can be found here: 
+  The live link can be found here: https://lucijahajdu.github.io/dance-rehabilitation/
 
   ## Credits ##
   ### Content ##
@@ -69,7 +69,7 @@ Users of the website will be able to recieve information about the websites owne
   ## Media ##
   * The images were provided from Anita Hajdu(site owner).
   * The background image in the Services section was taken from Pexels.
-  
+
 
   
 

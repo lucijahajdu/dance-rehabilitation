@@ -82,6 +82,7 @@ h2 {
     background: url('../css/images/heroimage.png') no-repeat center center;
 }
 
+/* Text block over image */
 #cover-text, #cover-text h2 {
     color: #fff;
 }
@@ -98,7 +99,7 @@ h2 {
     padding-top: 40px;
     padding-left: 10px;
 
-    background-color: rgba(241, 109, 107, .7);
+    background-color: #f16d6bb3;
 
     bottom: 30px;
     right: 250px;
@@ -124,27 +125,25 @@ h2 {
     padding: 0;
 }
 
-.about-me-columns {
+ .about-me-content {
     display: flex;
-    flex-direction: row;
-    margin: 3%;
-    padding: 3%;
-}
-
- .about-me-content p {
-    font-size: 140%;
-    margin: 1%;
-    padding: 1%;
+    align-items:center;
+    margin: 1% 2% ;
  }
-
  .about-me-image {
-     width: 40%;
-     height: auto;
-     margin: 2%;
-     padding: 1%;
+    vertical-align: middle;
+    max-width: 100%;
+    width: 400px;
  }
+.about-me-content p {
+    font-size: 150%;
+    width: 50%;
+    height: 10%;
+    margin: 2% 0 2% 8%;
 
-/* Flexbox design patterns */
+}
+ 
+/* Flexbox design patterns-Services section */
 
 #services {
     background: url(../css/images/background-image.jpg) center center / cover no-repeat fixed;
@@ -174,7 +173,7 @@ h2 {
 li {
     list-style-type: none;
 }
-
+/* Contact Section with most important informations (email, phone number and address) */
 #contact {
     margin-bottom: 50px;
 }
@@ -191,26 +190,22 @@ li {
     font-weight: bold;
 }
 
+/* Form section-responsive*/
 .form-box {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin:10px;
-    padding: 10px;
     color: #3a3a3a;
-    background-color: rgba(230, 230, 250, 0.6);
-    width: 100%;
+    background-color: #e6e6fa99;
+    width: auto;
+    padding: 30px;
 }
-
 
 form > h2 {
     font-size: 150%;
 }
 
 .text-input {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background: transparent;
     color: #252525;
     width: 100%;
@@ -225,9 +220,6 @@ form > h2 {
 }
 
 .send-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-top: 20px;
     border-radius: 2px;
     padding: 15px 32px;
@@ -239,9 +231,6 @@ form > h2 {
 }
 
 .message-input {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background: transparent;
     color: #252525;
     width: 100%;
@@ -253,12 +242,7 @@ form > h2 {
     border-color: #0a814a;
 }
 
-h4 {
-    margin-bottom: 20px;
-}
-
-/* footer */
-
+/* Social media icons- instagram, twitter, youtube and facebook*/
 footer {
     height: 30px;
 }
@@ -277,6 +261,7 @@ footer {
     padding: 3%;
     color: #3a3a3a;
 }
+
 /* Media queries */
 
 /* Responsive layout- makes a one column layout insted of three column layout */
@@ -286,11 +271,10 @@ footer {
     }
 }
 
-@media (max-width: 1500px) {
-    .about-me-columns {
+@media (max-width: 1200px) {
+    .about-me-content {
         flex-direction: column;
     }
-    
 }
 
 /* For medium screen sizes from 1000px wide and down */
@@ -308,4 +292,14 @@ footer {
         left: 0;
     }
 }
+/* For small screen sizes from 400px wide and down */
+ @media screen and (max-width: 400px) {
+    .about-me-content p {
+        margin: 3%;
+        padding: 3%;
+        width: 100%;
+    }
+    
+ }
+
     
