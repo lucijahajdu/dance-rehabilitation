@@ -316,6 +316,12 @@ footer {
         padding: 3%;
         width: 100%;
     }
+
+    .confirmation {
+        margin-top: 90%;
+        font-size: 70%;
+        padding: 3%;
+    }
  }
 
     

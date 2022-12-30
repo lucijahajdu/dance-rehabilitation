@@ -59,12 +59,12 @@ Users of the website will be able to recieve information about the websites owne
 * The form functions correctly: requires entries in every field, it will only accept an email in the email field, and the submit button works.
   * The form curently works as a dummy form. Designed to give feedback to the user but it does not store any data.
 ### Test cases ###
-* The webpage responds web scrolling scrolling
+* The webpage responds to scrolling.
 * When tapping the options Home, About, Services or Contact, it navigates the user to the section of the page where the aproporiate information can be found.
 * In the form section
-      * When hovering over the input fields, the frames turns green, indicating that it can be filled in
-      * If there are missing informaion in the data section of the form, when tapping "Send your messge", a warning message appears to inform users to fill in the missing information.
-      * Tapping "Send your message" CTA opens the confirmation site
+   * When hovering over the input fields, the frames turns green, indicating that it can be filled in
+   * If there are missing informaion in the data section of the form, when tapping "Send your messge", a warning message appears to inform users to fill in the missing information.
+   * Tapping "Send your message" CTA opens the confirmation site
 * In the footer section, the Facebook, Twitter, YouTube and Instagram CTAs navigate the user to the corresponding website.
 * Tapping on the "Dance and Rehabilitation" title will direct the user to the main page
 
